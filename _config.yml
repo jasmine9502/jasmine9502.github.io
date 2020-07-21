@@ -19,7 +19,7 @@ webtitle: '加农炮的进击'
 bio: 'your awesome bio'
 about: true
 aboutyou: '勤勤恳恳，兢兢业业的iOS开发人员'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+portraits: '/assets/profile.jpg' # your portraits image file path
 
 # SNS
 SNS: true
