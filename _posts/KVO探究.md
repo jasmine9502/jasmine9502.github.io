@@ -1,11 +1,9 @@
 ---
 layout: post
-title: 'KVO探究'
-date: 2020-07-21
-author: Jekyll
-color: rgb(255,210,32)
-cover: ''
-tags: jekyll
+title: Media
+date: 2020-07-21 04:00:00
+tags: KVO
+author: hanuman
 ---
 
 ## KVO探究
