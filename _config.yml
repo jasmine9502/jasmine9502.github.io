@@ -1,43 +1,78 @@
 # Site settings
-title: jasmine 的技术小栈
-description: '记录漫漫长路上的坑与心得'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+title: Jasmine的技术小栈
+description: 记录漫漫长路坑与心得
+baseurl: "" 
+#change the baseurl to "" if you are using it as your user GitHub Pages
+url: "https://jasmine9502.github.io"  
 
+
+# GitHub User settings
+username: Jasmine
+github_username: jasmine9502
+user_description: iOS Developer
+user_title: user_title
+email: 18888172136@163.com
+
+# Blog Author settings
 author:
-  name: 'Jasmine'
-  email: 18888172136@163.com.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name:            
+  picture:        
+  email:           
+  description:     
+  twitter:
+  facebook:
+  github:          
+  linkedin:
+  clustrmap:      
+
+
+# markdown
+markdown: kramdown
+  
+kramdown:
+ footnote_nr: 1
+ entity_output: as_char
+ # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+ syntax_highlighter: rouge
+ syntax_highlighter_opts:
+  # Use existing pygments syntax highlighting css
+  css_class: 'highlight'
+ span:
+  line_numbers: false
+ block:
+  line_numbers: true
+  start_line: 1
+ 
+highlighter: rouge
+    
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+permalink: none
 
 defaults:
   -
     scope:
-      path: ''
-      type: 'posts'
+      path: ""
+      type: "posts"
     values:
-        layout: 'post'
+      toc: true
+      mathjax: true
+      mermaid: false
+      highlight: false
+      numbering: true
+      status: Completed
+      protected: false
+      commentable: true
+      rss: true
+      numbering: true
 
-# Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
 
-sass:
-    sass_dir: _sass
-    style: compressed
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude:
+ - LICENSE.md
+ - README.md
+ - "*.cdf"
+ - "*.nb"
+ - "*.bk"
+ - "*.draft.md"
