@@ -1,6 +1,6 @@
 # Site settings
-title: Jasmine的技术小栈
-description: 记录漫漫长路坑与心得
+title: jasmine的技术小栈
+description: 漫漫长路的坑与得
 baseurl: "" 
 #change the baseurl to "" if you are using it as your user GitHub Pages
 url: "https://jasmine9502.github.io"  
@@ -14,10 +14,10 @@ user_title: user_title
 email: 18888172136@163.com
 
 # Blog Author settings
-author:
-  name:            
+author: 
+  name:  jasmine          
   picture:        
-  email:           
+  email:   18888172136@163.com        
   description:     
   twitter:
   facebook:
@@ -67,7 +67,6 @@ defaults:
       commentable: true
       rss: true
       numbering: true
-
 
 exclude:
  - LICENSE.md
