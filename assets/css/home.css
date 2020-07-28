@@ -192,13 +192,13 @@ sub,sup{
 .header .site-title{
     font-size:30px;
     display:block;
-    line-height:1;
+    line-height:2;
     color:white
 }
 @media only screen and (min-width:550px){
     .header .site-title{
         margin:0;
-        font-size:60px
+        font-size:40px
     }
 }
 .header .site-description{
